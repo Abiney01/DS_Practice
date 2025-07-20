@@ -80,16 +80,16 @@ class SLLIterator:
         return data
 
 
-my_list = Linked_List()
-my_list.insert_at_start(4)
-my_list.insert_at_last(5)
-my_list.insert_at_last(6)
-my_list.insert_after(my_list.search(4),7)
-# my_list.print_items()
-my_list.delete_item(4)
-# my_list.print_items()
-for x in my_list:
-    print(x,end=" ")
+# my_list = Linked_List()
+# my_list.insert_at_start(4)
+# my_list.insert_at_last(5)
+# my_list.insert_at_last(6)
+# my_list.insert_after(my_list.search(4),7)
+# # my_list.print_items()
+# my_list.delete_item(4)
+# # my_list.print_items()
+# for x in my_list:
+#     print(x,end=" ")
 
 
 

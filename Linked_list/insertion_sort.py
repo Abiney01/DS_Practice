@@ -13,13 +13,13 @@ def insertionSortList(head):
     while current:
         prev = dummy  # Start at the beginning of the sorted list
         next_node = current.next  # Store the next node
-        print(prev.next,prev.val,current.val)
-        print(prev,"curprev",current)
-        print(prev.next,"prevnext")
+        # print(prev.next,prev.val,current.val)
+        # print(prev,"curprev",current)
+        # print(prev.next,"prevnext")
 
         # Find the correct position in the sorted list
         while prev.next and prev.next.val < current.val:
-            print(prev,prev.next,"vsa",prev.next.val,current.val)
+            # print(prev,prev.next,"vsa",prev.next.val,current.val)
             prev = prev.next
  
         # Insert current node
