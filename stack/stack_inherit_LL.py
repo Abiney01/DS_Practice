@@ -1,25 +1,22 @@
-class Node:
-    def __init__(self,item=None,next=None):
-        self.item = item
-        self.next = next
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from Linked_list.linkList import Linked_List
 
-class Stack:
+class Stack(Linked_List):
     def __init__(self):
-        self.start = None
+        super().__init__()
         self.item_count = 0
-
     def is_empty(self):
-        return self.start == None
+        return super().isEmpty()
     
     def push(self,data):
-        n = Node(data,self.start)
-        self.start = n
+        self.insert_at_start(data)
         self.item_count+=1
-
     def pop(self):
         if not self.is_empty():
             data = self.start.item
-            self.start = self.start.next
+            self.delete_first()
             self.item_count-=1
             return data
         raise IndexError("Stack is empty")
@@ -35,7 +32,9 @@ class Stack:
 s = Stack()
 s.push(10)
 s.push(20)
-print(s.peek())
+s.push(30)
+print(s.size())
 print(s.pop())
 print(s.peek())
-print(s.size())
+
+            
