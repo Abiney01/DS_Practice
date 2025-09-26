@@ -35,3 +35,13 @@ def rotate_clock(arr,n):
     return arr
 arr3 = [[1,2,3],[4,5,6],[7,8,9]]
 print(rotate_clock(arr3,3))
+
+def rotate_180(arr,n):
+    for j in range(n):
+        for i in range(n//2):
+            arr[i][j],arr[n-1-i][j] = arr[n-1-i][j],arr[i][j]
+    for i in range(n):
+        arr[i].reverse()
+    return arr
+arr3 = [[1,2,3],[4,5,6],[7,8,9]]
+print(rotate_180(arr3,3))

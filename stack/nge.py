@@ -33,3 +33,8 @@ class Solution:
             nge_map[i] = stack[-1] if stack else -1
             stack.append(i)
         return [nge_map[i] for i in nums1]
+    
+nums1 = [4,1,2]
+nums2 = [1,3,4,2]
+obj1 = Solution()
+print(obj1.nextGreaterElement(nums1,nums2))

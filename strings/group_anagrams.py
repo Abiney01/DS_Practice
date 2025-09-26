@@ -13,8 +13,8 @@ def group_anagrams(words):
     # result = []
     # for i in anagram_map.values():
     #     i.sort()
-    #     result.append(i)
-    # return result
+    #     result.extend(i)
+    # return ' '.join(result)
 
 # Example usage
 words = ["eat", "tea", "tan", "ate", "nat", "bat"]
