@@ -22,5 +22,5 @@ def next_palindrome(s):
     return new_palindrome
 
 
-s = "1441"
+s = "14441"
 print(next_palindrome(s))
