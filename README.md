@@ -8,14 +8,17 @@ It serves as both a learning resource and a personal reference.
 
 The code is organized into folders by category. Each folder contains multiple problems related to that topic. Here's the current structure:
 
-├── Arrays/
-├── Strings/
-├── LinkedList/
-├── Stack/
-├── Queue/
-├── Trees/
-├── Recursion/
+## 📁 Project Structure
 
+ **DS_PRACTICE/**
+  - [Arrays](./Arrays)
+  - [Strings](./Strings)
+  - [LinkedList](./Linked_list)
+  - [Stack](./Stack)
+  - [Queue](./Queue)
+  - [Trees](./Trees)
+  - [Recursion](./Recursion)
+  - [Design](./design)
 
 Each folder contains:
 - 📄 Individual problem files (e.g., `two_sum.py`, `reverse_linked_list.py`)
