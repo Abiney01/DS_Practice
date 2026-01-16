@@ -11,13 +11,13 @@ The code is organized into folders by category. Each folder contains multiple pr
 ## 📁 Project Structure
 
  **DS_PRACTICE/**
-  - [Arrays](./Arrays)
-  - [Strings](./Strings)
+  - [Arrays](./arrays)
+  - [Strings](./strings)
   - [LinkedList](./Linked_list)
-  - [Stack](./Stack)
-  - [Queue](./Queue)
-  - [Trees](./Trees)
-  - [Recursion](./Recursion)
+  - [Stack](./stack)
+  - [Queue](./queue)
+  - [Trees](./trees)
+  - [Recursion](./recursion)
   - [Design](./design)
 
 Each folder contains:
