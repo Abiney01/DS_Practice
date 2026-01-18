@@ -1,0 +1,24 @@
+def checkValidString(s):
+    min_open = 0
+    max_open = 0
+
+    for ch in s:
+        if ch == '(':
+            min_open += 1
+            max_open += 1
+        elif ch == ')':
+            min_open -= 1
+            max_open -= 1
+        else:  
+            min_open -= 1    
+            max_open += 1      
+
+        if max_open < 0:
+            return False     
+
+        min_open = max(min_open, 0)
+
+    return min_open == 0
+
+s = "(((*)))"
+print(checkValidString(s))
