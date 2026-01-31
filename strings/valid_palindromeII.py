@@ -1,0 +1,15 @@
+def validPalindrome(s):
+        s = s.lower()
+        left = 0
+        right = len(s)-1
+        while left < right:
+            if s[left] != s[right]:
+                skipL = s[left+1:right+1]
+                skipR = s[left:right]
+                return (skipL == skipL[::-1] or skipR == skipR[::-1])
+            left+=1
+            right-=1
+        return True
+
+s = "abbda"
+print(validPalindrome(s))
