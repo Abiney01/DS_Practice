@@ -1,0 +1,13 @@
+def perfect_square(n):
+    dp = [n] * (n+1)
+    dp[0] = 0
+    for target in range(n+1):
+        for s in range(1,target+1):
+            square = s*s
+            if target-square < 0:
+                break
+            dp[target] = min(dp[target],1+dp[target-square])
+    return dp[n]
+    
+n = 4
+print(perfect_square(n))
