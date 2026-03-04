@@ -11,14 +11,19 @@ The code is organized into folders by category. Each folder contains multiple pr
 ## 📁 Project Structure
 
  **DS_PRACTICE/**
-  - [Arrays](./arrays)
-  - [Strings](./strings)
-  - [LinkedList](./Linked_list)
-  - [Stack](./stack)
-  - [Queue](./queue)
-  - [Trees](./trees)
-  - [Recursion](./recursion)
-  - [Design](./design)
+  - [Arrays](./arrays) - Core array problems, sorting, searching
+  - [Linked List](./Linked_list) - Linked list operations and problems
+  - [Stack](./stack) - Stack-based problems
+  - [Queue](./queue) - Queue-based problems
+  - [Strings](./strings) - String manipulation and problems
+  - [Trees](./trees) - Tree traversal and problems
+  - [Recursion & Backtracking](./recursion_backtracking) - Recursion and backtracking problems
+  - [Dynamic Programming](./dynamic_programming) - DP problems and optimizations
+  - [Greedy](./greedy) - Greedy algorithm problems
+  - [Binary Search](./binary_search) - Binary search and variants
+  - [Heap & Priority Queue](./heap_priority_queue) - Heap and heap-based problems
+  - [Math & Bit Manipulation](./math_bit_manipulation) - Math and bitwise operations
+  - [Design](./design) - System design problems
 
 Each folder contains:
 - 📄 Individual problem files (e.g., `two_sum.py`, `reverse_linked_list.py`)
